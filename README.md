@@ -11,9 +11,7 @@ Mojo is a sports betting website which aims to predict a basketball player's sta
 except the underlying value that consumers bet on is based on a formula involving players' projected career statistics. 
 
 The mojo value formula for NBA career stocks is as follows:
-0.0125 steals + 0.0125 blocks + 0.01 points + 0.0075 assists 
-+ 0.005 rebounds + 0.005 3pts made + 0.0025 plus minus - 0.0125 turnovers
-- 0.01 fg missed - 0.005 ft missed
+0.0125 steals + 0.0125 blocks + 0.01 points + 0.0075 assists + 0.005 rebounds + 0.005 3pts made + 0.0025 plus minus - 0.0125 turnovers - 0.01 fg missed - 0.005 ft missed
 
 In this project, we train a machine learning model to predict how players'
 careers will turn out based on past players' careers. To do so involves 4 steps:
